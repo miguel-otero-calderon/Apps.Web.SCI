@@ -1,0 +1,37 @@
+Merchant;Date_Time;Invoice;Description;Amount;Payment_Method;Transaction_Type;Response;Auth_Code;Transaction_ID;Address_Verification;Customer_ID;First_Name1;Last_Name1;Company1;Address1;City1;State_Province1;Zip_Postal_Code1;Country1;Phone;Fax;E-Mail;First_Name2;Last_Name2;Company2;Address2;City2;State_Province2;Zip_Postal_Code2;Country2;Tax;Duty;Freight;Tax_Exempt;PO_Number;
+"Health Assure (1890024)";
+"5-Sep-2017 15:19:38 PDT"
+"202";
+"Goods or Services";
+"64.95 (USD)";
+"Visa xxxx7409";
+"Authorization and Capture";
+"This transaction has been approved."
+"108645"
+"60667061467"
+"Street Address: Match -- First 5 Digits of Zip: No Match"
+"";
+"GERALD";
+"LA DRECHE";
+"";
+"1203 CARLTON AVE W.";
+"";
+"";
+"77520";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";
+"";

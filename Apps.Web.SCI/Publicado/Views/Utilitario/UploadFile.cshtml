@@ -1,0 +1,54 @@
+﻿<div class="row">
+    <form id="form1" enctype="multipart/form-data" method="post">
+        <h1 class="h1">Load of files transactions</h1>
+        <div>
+            <b>
+                <label>Process Date:</label>
+                <input type="text" id="date1" name="date1" maxlength="10" style="width:80px" />
+                <label>yyyy-mm-dd</label>
+            </b>
+        </div>
+        <br />
+        <div>
+            <label>File Shopping Cart:</label>
+            <input type="file" id="file1" name="file1" accept=".csv" />
+        </div>
+        <br />  
+        <div>
+            <label>File Authorize.Net:</label>
+            <input type="file" id="file2" name="file2" accept=".csv" />
+        </div>
+        <br />
+        <div>
+            <input type="button" id="load" value="Validate" onclick="validar_load_files()" />
+            <span id="status" style="color:red"></span>
+            <input type="button" id="download" value="Download File Result"/>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary list-panel" id="list-panel">
+                <div class="panel-heading list-panel-heading">
+                    <h1 class="panel-title list-panel-title">Preview File Result</h1>
+                </div>
+                <div class="panel-body">
+                    <table id="assets-data-table" class="table table-striped table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Index</th>
+                                <th>Transaction_Date</th>
+                                <th>Payment_Method</th>
+                                <th>Credit_Card_Number</th>
+                                <th>Auth_Code</th>
+                                <th>Transaction_ID</th>
+                                <th>Error</th>
+                            </tr>
+                        </thead>
+                        <tbody id="rows">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
